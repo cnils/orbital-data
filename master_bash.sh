@@ -92,7 +92,7 @@ for p in ${pages[@]};
                 ############        
         
                 # Run calculations based on new TLE data - pass variables to Python
-                s_date=`python ../sgp4-1.4/date.py $name`
+                s_date=`python ../sgp4/date.py $name`
                 #s_date=`TZ=UTC date +"%a, %d %b %Y %H:%M:%S GMT"`
                 #es=`date +"%s" -d "$s_date"`  # epoch seconds
                 ss=600   # step size in seconds
@@ -103,7 +103,7 @@ for p in ${pages[@]};
             
                 ### Run sgp4.py script ###
                 # variables with spaces should be in double quotes
-                python ../sgp4-1.4/sgp4.py $name $ts $ss >> $dir/data/$name.xyzv # passes <1 filename> <2 current date> <3 current epoch> <4 time span> <5 step size> from bash to Python
+                python ../sgp4/sgp4.py $name $ts $ss >> $dir/data/$name.xyzv # passes <1 filename> <2 current date> <3 current epoch> <4 time span> <5 step size> from bash to Python
             
                 # Create SSC file
                 echo -e ""\""$name"\"" "\""Sol/Earth"\""\n{\nClass "\""spacecraft"\""\n#Mesh "\""<file>"\""\nRadius 0.01\nAlbedo 0.7\nSampledOrbit "\""$name.xyzv"\""\n\nBodyFrame {\n    TwoVector {\n        Center "\""Sol/Earth/$name"\""\n        Primary {\n            Axis "\""z"\""\n            RelativePosition { Target "\""Sol/Earth"\"" }\n        }\n        Secondary {\n            Axis "\""x"\""\n            RelativeVelocity { Target "\""Sol/Earth"\"" }\n        }\n    }\n}\n\n}" > $dir/$name.ssc

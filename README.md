@@ -6,7 +6,7 @@ Display orbital data forecasts in [Celestia](http://www.shatters.net/celestia/).
 
 Code
 -----------------------
-Ensure all environmental variables are set correctly in `master.sh`
+Ensure all environmental variables are set correctly in `master.sh` before running.
 ```bash
 # add crontab file contents to your system's crontab to pull data every hour
 $ crontab master_crontab.sh

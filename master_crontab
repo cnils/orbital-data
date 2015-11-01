@@ -1,0 +1,1 @@
+10 * * * * sh /home/<...>/orbits2/master_bash.sh

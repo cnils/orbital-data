@@ -1,0 +1,10 @@
+# Running log file for HST TLE data from Celestrack TLE repository (sourced from NORAD)
+
+# Line 1 is: <line> <sat_num> <int_desig> <ep_yr_fracday> <1_der_mm> <2_der_mm> <drag> <eph_typ> <el_set> <cs>
+# TLE Line 2 is: <line> <sat_num> <incl> <ra> <ecc> <peri> <m_anom> <m_mot> <rev_num> <cs>
+
+#####################################################################
+Mon, 01 Jun 2015 16:06:07 GMT
+1 20580U 90037B   15152.55480950  .00001543  00000-0  87964-4 0  9995
+2 20580  28.4700 257.2125 0003215  72.2825  37.7529 15.07423302177442
+

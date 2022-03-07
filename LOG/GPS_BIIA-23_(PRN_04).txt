@@ -1,0 +1,10 @@
+# Running log file for GPS_BIIA-23_(PRN_04) TLE data from Celestrack TLE repository (sourced from NORAD)
+
+# Line 1 is: <line> <sat_num> <int_desig> <ep_yr_fracday> <1_der_mm> <2_der_mm> <drag> <eph_typ> <el_set> <cs>
+# TLE Line 2 is: <line> <sat_num> <incl> <ra> <ecc> <peri> <m_anom> <m_mot> <rev_num> <cs>
+
+#####################################################################
+Mon, 01 Jun 2015 16:06:03 GMT
+1 22877U 93068A   15152.41801186  .00000047  00000-0  00000+0 0  9995
+2 22877  53.8608 129.2919 0111300  60.1690  24.6028  2.00561543158258
+

@@ -1,0 +1,10 @@
+# Running log file for GPS_BIIF-7_(PRN_09) TLE data from Celestrack TLE repository (sourced from NORAD)
+
+# Line 1 is: <line> <sat_num> <int_desig> <ep_yr_fracday> <1_der_mm> <2_der_mm> <drag> <eph_typ> <el_set> <cs>
+# TLE Line 2 is: <line> <sat_num> <incl> <ra> <ecc> <peri> <m_anom> <m_mot> <rev_num> <cs>
+
+#####################################################################
+Mon, 01 Jun 2015 16:06:03 GMT
+1 40105U 14045A   15149.55063248 -.00000037  00000-0  00000+0 0  9997
+2 40105  54.8580 250.0738 0003720 181.0575 178.9011  2.00544798  6019
+

@@ -1,0 +1,10 @@
+# Running log file for GPS_BIIF-1_(PRN_25) TLE data from Celestrack TLE repository (sourced from NORAD)
+
+# Line 1 is: <line> <sat_num> <int_desig> <ep_yr_fracday> <1_der_mm> <2_der_mm> <drag> <eph_typ> <el_set> <cs>
+# TLE Line 2 is: <line> <sat_num> <incl> <ra> <ecc> <peri> <m_anom> <m_mot> <rev_num> <cs>
+
+#####################################################################
+Mon, 01 Jun 2015 16:06:03 GMT
+1 36585U 10022A   15152.45015916 -.00000053  00000-0  00000+0 0  9995
+2 36585  56.0513  10.1922 0044826  39.6275 317.3967  2.00563968 36699
+

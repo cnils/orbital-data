@@ -1,0 +1,10 @@
+# Running log file for ISS_(ZARYA) TLE data from Celestrack TLE repository (sourced from NORAD)
+
+# Line 1 is: <line> <sat_num> <int_desig> <ep_yr_fracday> <1_der_mm> <2_der_mm> <drag> <eph_typ> <el_set> <cs>
+# TLE Line 2 is: <line> <sat_num> <incl> <ra> <ecc> <peri> <m_anom> <m_mot> <rev_num> <cs>
+
+#####################################################################
+Mon, 01 Jun 2015 16:06:07 GMT
+1 25544U 98067A   15152.55022564  .00004356  00000-0  70167-4 0  9996
+2 25544  51.6442 162.1083 0004249  11.1565 132.5794 15.55252237945605
+

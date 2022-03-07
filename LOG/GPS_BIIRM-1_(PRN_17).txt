@@ -1,0 +1,10 @@
+# Running log file for GPS_BIIRM-1_(PRN_17) TLE data from Celestrack TLE repository (sourced from NORAD)
+
+# Line 1 is: <line> <sat_num> <int_desig> <ep_yr_fracday> <1_der_mm> <2_der_mm> <drag> <eph_typ> <el_set> <cs>
+# TLE Line 2 is: <line> <sat_num> <incl> <ra> <ecc> <peri> <m_anom> <m_mot> <rev_num> <cs>
+
+#####################################################################
+Mon, 01 Jun 2015 16:06:03 GMT
+1 28874U 05038A   15152.23537979 -.00000041  00000-0  00000+0 0  9999
+2 28874  55.7220  72.7601 0103207 245.5571  25.0093  2.00552473 70922
+

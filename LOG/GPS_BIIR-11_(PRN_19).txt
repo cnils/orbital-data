@@ -1,0 +1,10 @@
+# Running log file for GPS_BIIR-11_(PRN_19) TLE data from Celestrack TLE repository (sourced from NORAD)
+
+# Line 1 is: <line> <sat_num> <int_desig> <ep_yr_fracday> <1_der_mm> <2_der_mm> <drag> <eph_typ> <el_set> <cs>
+# TLE Line 2 is: <line> <sat_num> <incl> <ra> <ecc> <peri> <m_anom> <m_mot> <rev_num> <cs>
+
+#####################################################################
+Mon, 01 Jun 2015 16:06:03 GMT
+1 28190U 04009A   15152.40886501 -.00000038  00000-0  00000+0 0  9990
+2 28190  55.5546  75.5946 0113113  30.7702 106.6042  2.00556834 82076
+
